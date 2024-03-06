@@ -10,12 +10,12 @@ config_url = r"C:\Users\chowdsr\Desktop\Daily files\Koselugo_status.csv"
 
 @given(u'extract file input')
 def step_impl(context):
-    context.df1 = pd.read_csv(latest_url)
+    context.df1 = latest_url
 
 
 @given(u'config csv file input')
 def step_impl(context):
-    context.df3 = pd.read_csv(config_url)
+    context.df3 = config_url
 
 
 @when(u'field names of the extract file is compared with config file')

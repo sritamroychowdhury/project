@@ -3,5 +3,5 @@ Column name match in both the extracts,passed,
 Data Type should match with the config file,passed,
 Expected Values should match with the config file,passed,
 Field format should match with the config file,passed,
-Field name should match with the config file,failed,"Assertion Failed: {'Fields missing in Latest': ['REFERRAL_NUMBER', 'sp_raw_substatus_description', 'primary_coverage_type', 'RAW_SECONDARY_PAYER_NAME', 'SECONDARY_PAYER_SUBTYPE']}"
+Field name should match with the config file,failed,"Assertion Failed: {'Columns missing in Latest': ['REFERRAL_NUMBER', 'sp_raw_substatus_description', 'primary_coverage_type', 'RAW_SECONDARY_PAYER_NAME', 'SECONDARY_PAYER_SUBTYPE']}"
 Row count match in both the extracts,passed,

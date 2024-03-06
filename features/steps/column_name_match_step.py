@@ -11,12 +11,12 @@ latest_url = r"C:\Users\chowdsr\Desktop\Daily files\IntegriChain_Alexion_Koselug
 
 @given(u'last week csv file input')
 def step_impl(context):
-    context.df1 = pd.read_csv(last_week_url)
+    context.df1 = last_week_url
 
 
 @given(u'latest csv file input')
 def step_impl(context):
-    context.df2 = pd.read_csv(latest_url)
+    context.df2 = latest_url
 
 
 @when(u'column names of the files are compared')
